@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		104A85F41CA9265F00DF3B11 /* Chess.m in Sources */ = {isa = PBXBuildFile; fileRef = 104A85F31CA9265F00DF3B11 /* Chess.m */; };
+		104A85F71CA9276700DF3B11 /* Vua.m in Sources */ = {isa = PBXBuildFile; fileRef = 104A85F61CA9276700DF3B11 /* Vua.m */; };
+		104A85FA1CA927B600DF3B11 /* Xe.m in Sources */ = {isa = PBXBuildFile; fileRef = 104A85F91CA927B600DF3B11 /* Xe.m */; };
+		104A85FD1CA927E800DF3B11 /* Tot.m in Sources */ = {isa = PBXBuildFile; fileRef = 104A85FC1CA927E800DF3B11 /* Tot.m */; };
+		106A97E31CA95647004E24EC /* Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 106A97E21CA95647004E24EC /* Alert.m */; };
+		109848431CA80903003ABB3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 109848421CA80903003ABB3D /* main.m */; };
+		109848461CA80903003ABB3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 109848451CA80903003ABB3D /* AppDelegate.m */; };
+		109848491CA80903003ABB3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 109848481CA80903003ABB3D /* ViewController.m */; };
+		1098484C1CA80903003ABB3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1098484A1CA80903003ABB3D /* Main.storyboard */; };
+		1098484E1CA80903003ABB3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1098484D1CA80903003ABB3D /* Assets.xcassets */; };
+		109848511CA80903003ABB3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1098484F1CA80903003ABB3D /* LaunchScreen.storyboard */; };
+		1098485A1CA81926003ABB3D /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 109848591CA81926003ABB3D /* Tree.m */; };
+		1098485D1CA819AC003ABB3D /* Flower.m in Sources */ = {isa = PBXBuildFile; fileRef = 1098485C1CA819AC003ABB3D /* Flower.m */; };
+		109848601CA81A14003ABB3D /* Vege.m in Sources */ = {isa = PBXBuildFile; fileRef = 1098485F1CA81A14003ABB3D /* Vege.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		104A85F21CA9265F00DF3B11 /* Chess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chess.h; sourceTree = "<group>"; };
+		104A85F31CA9265F00DF3B11 /* Chess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chess.m; sourceTree = "<group>"; };
+		104A85F51CA9276700DF3B11 /* Vua.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vua.h; sourceTree = "<group>"; };
+		104A85F61CA9276700DF3B11 /* Vua.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vua.m; sourceTree = "<group>"; };
+		104A85F81CA927B600DF3B11 /* Xe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Xe.h; sourceTree = "<group>"; };
+		104A85F91CA927B600DF3B11 /* Xe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Xe.m; sourceTree = "<group>"; };
+		104A85FB1CA927E800DF3B11 /* Tot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tot.h; sourceTree = "<group>"; };
+		104A85FC1CA927E800DF3B11 /* Tot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tot.m; sourceTree = "<group>"; };
+		106A97E11CA95647004E24EC /* Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alert.h; sourceTree = "<group>"; };
+		106A97E21CA95647004E24EC /* Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alert.m; sourceTree = "<group>"; };
+		1098483E1CA80903003ABB3D /* 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		109848421CA80903003ABB3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		109848441CA80903003ABB3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		109848451CA80903003ABB3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		109848471CA80903003ABB3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		109848481CA80903003ABB3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1098484B1CA80903003ABB3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1098484D1CA80903003ABB3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		109848501CA80903003ABB3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		109848521CA80903003ABB3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		109848581CA81926003ABB3D /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		109848591CA81926003ABB3D /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
+		1098485B1CA819AC003ABB3D /* Flower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flower.h; sourceTree = "<group>"; };
+		1098485C1CA819AC003ABB3D /* Flower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flower.m; sourceTree = "<group>"; };
+		1098485E1CA81A14003ABB3D /* Vege.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vege.h; sourceTree = "<group>"; };
+		1098485F1CA81A14003ABB3D /* Vege.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vege.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1098483B1CA80902003ABB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		104A85F11CA925DD00DF3B11 /* Chess */ = {
+			isa = PBXGroup;
+			children = (
+				104A85F21CA9265F00DF3B11 /* Chess.h */,
+				104A85F31CA9265F00DF3B11 /* Chess.m */,
+				104A85F61CA9276700DF3B11 /* Vua.m */,
+				104A85F51CA9276700DF3B11 /* Vua.h */,
+				104A85F81CA927B600DF3B11 /* Xe.h */,
+				104A85F91CA927B600DF3B11 /* Xe.m */,
+				104A85FB1CA927E800DF3B11 /* Tot.h */,
+				104A85FC1CA927E800DF3B11 /* Tot.m */,
+			);
+			name = Chess;
+			sourceTree = "<group>";
+		};
+		109848351CA80902003ABB3D = {
+			isa = PBXGroup;
+			children = (
+				109848401CA80903003ABB3D /* 1 */,
+				1098483F1CA80903003ABB3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1098483F1CA80903003ABB3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1098483E1CA80903003ABB3D /* 1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		109848401CA80903003ABB3D /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				104A85F11CA925DD00DF3B11 /* Chess */,
+				109848441CA80903003ABB3D /* AppDelegate.h */,
+				109848451CA80903003ABB3D /* AppDelegate.m */,
+				109848471CA80903003ABB3D /* ViewController.h */,
+				109848481CA80903003ABB3D /* ViewController.m */,
+				1098484A1CA80903003ABB3D /* Main.storyboard */,
+				1098484D1CA80903003ABB3D /* Assets.xcassets */,
+				1098484F1CA80903003ABB3D /* LaunchScreen.storyboard */,
+				109848521CA80903003ABB3D /* Info.plist */,
+				109848411CA80903003ABB3D /* Tree */,
+				109848581CA81926003ABB3D /* Tree.h */,
+				109848591CA81926003ABB3D /* Tree.m */,
+				1098485B1CA819AC003ABB3D /* Flower.h */,
+				1098485C1CA819AC003ABB3D /* Flower.m */,
+				1098485E1CA81A14003ABB3D /* Vege.h */,
+				1098485F1CA81A14003ABB3D /* Vege.m */,
+				106A97E11CA95647004E24EC /* Alert.h */,
+				106A97E21CA95647004E24EC /* Alert.m */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		109848411CA80903003ABB3D /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				109848421CA80903003ABB3D /* main.m */,
+			);
+			name = Tree;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1098483D1CA80902003ABB3D /* 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 109848551CA80903003ABB3D /* Build configuration list for PBXNativeTarget "1" */;
+			buildPhases = (
+				1098483A1CA80902003ABB3D /* Sources */,
+				1098483B1CA80902003ABB3D /* Frameworks */,
+				1098483C1CA80902003ABB3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 1;
+			productName = 1;
+			productReference = 1098483E1CA80903003ABB3D /* 1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		109848361CA80902003ABB3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tech Kids";
+				TargetAttributes = {
+					1098483D1CA80902003ABB3D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 109848391CA80902003ABB3D /* Build configuration list for PBXProject "1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 109848351CA80902003ABB3D;
+			productRefGroup = 1098483F1CA80903003ABB3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1098483D1CA80902003ABB3D /* 1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1098483C1CA80902003ABB3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109848511CA80903003ABB3D /* LaunchScreen.storyboard in Resources */,
+				1098484E1CA80903003ABB3D /* Assets.xcassets in Resources */,
+				1098484C1CA80903003ABB3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1098483A1CA80902003ABB3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109848491CA80903003ABB3D /* ViewController.m in Sources */,
+				104A85FD1CA927E800DF3B11 /* Tot.m in Sources */,
+				104A85F41CA9265F00DF3B11 /* Chess.m in Sources */,
+				106A97E31CA95647004E24EC /* Alert.m in Sources */,
+				1098485A1CA81926003ABB3D /* Tree.m in Sources */,
+				109848601CA81A14003ABB3D /* Vege.m in Sources */,
+				104A85F71CA9276700DF3B11 /* Vua.m in Sources */,
+				104A85FA1CA927B600DF3B11 /* Xe.m in Sources */,
+				109848461CA80903003ABB3D /* AppDelegate.m in Sources */,
+				109848431CA80903003ABB3D /* main.m in Sources */,
+				1098485D1CA819AC003ABB3D /* Flower.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1098484A1CA80903003ABB3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1098484B1CA80903003ABB3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1098484F1CA80903003ABB3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				109848501CA80903003ABB3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		109848531CA80903003ABB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		109848541CA80903003ABB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		109848561CA80903003ABB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "techkids.-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		109848571CA80903003ABB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "techkids.-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		109848391CA80902003ABB3D /* Build configuration list for PBXProject "1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109848531CA80903003ABB3D /* Debug */,
+				109848541CA80903003ABB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		109848551CA80903003ABB3D /* Build configuration list for PBXNativeTarget "1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109848561CA80903003ABB3D /* Debug */,
+				109848571CA80903003ABB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 109848361CA80902003ABB3D /* Project object */;
+}
